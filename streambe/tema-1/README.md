@@ -47,6 +47,4 @@ Instrucciones:
 Columnas de la Tabla: La tabla debe incluir columnas para el nombre del jugador, país, número de partidos ganados, partidos perdidos y puntos totales.
 Datos de Ejemplo: Insertar al menos 5 filas con datos ficticios de diferentes jugadores.
 
-Fecha de entrega: 15/05/2024
-
-
+Fecha de entrega: 15/05/2024.

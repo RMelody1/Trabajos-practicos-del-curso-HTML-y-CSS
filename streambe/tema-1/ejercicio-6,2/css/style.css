@@ -1,0 +1,46 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: rgba(248, 147, 236, 0.5);
+    padding: 20px; /* Ajuste para aumentar el espacio interno */
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Estilos para títulos */
+h1, h2 {
+    margin-bottom: 20px; /* Ajuste para aumentar el espacio inferior */
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Añade bordes redondeados */
+    overflow: hidden; /* Oculta cualquier desbordamiento */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade sombra */
+}
+th, td {
+    padding: 12px; /* Ajuste para aumentar el espacio interno */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}

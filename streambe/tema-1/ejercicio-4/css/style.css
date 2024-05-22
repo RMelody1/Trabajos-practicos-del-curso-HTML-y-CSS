@@ -1,0 +1,70 @@
+/*Reset de estilos*/
+* {
+    margin: 0; /* Quita los márgenes */
+    padding: 0; /* Quita el relleno */
+    box-sizing: border-box; /* Incluye el borde y el relleno en el tamaño total */
+}
+
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif; /* Fuente del cuerpo del documento */
+    line-height: 1.6; /* Espaciado entre líneas */
+    background-color: #f9f9f9; /* Color de fondo */
+    color: #333; /* Color del texto */
+    padding: 20px; /* Espaciado interno del cuerpo */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: rgba(229, 65, 210, 0.237); /* Color de fondo con opacidad */
+    padding: 1em; /* Espaciado interno del encabezado */
+    margin-bottom: 20px; /* Espacio inferior */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilos para títulos */
+h1 {
+    padding-bottom: 1rem; /* Espaciado inferior */
+}
+
+h2 {
+    margin-bottom: 1rem; /* Espacio inferior */
+}
+
+/* Estilos para sección de videos */
+section.videos {
+    display: flex; /* Contenedor de flex */
+    flex-wrap: wrap; /* Ajuste automático de elementos en varias filas */
+    gap: 20px; /* Espacio entre elementos */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+}
+
+/* Estilos para cada video */
+.video {
+    background-color: #fff; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 1rem; /* Espaciado interno */
+    text-align: center; /* Alineación de texto al centro */
+    width: calc(33.333% - 40px); /* Ancho del video */
+    box-sizing: border-box; /* Incluye el borde y el relleno en el tamaño total */
+}
+
+/* Estilos para títulos de video */
+.video h3 {
+    padding-bottom: 1rem; /* Espaciado inferior */
+}
+
+/* Estilos para el elemento de video */
+.video video {
+    border: 2px solid #000; /* Borde */
+    border-radius: 10px; /* Bordes redondeados */
+    width: 100%; /* Ancho del video */
+    height: auto; /* Altura automática */
+    margin-bottom: 1rem; /* Espacio inferior */
+}
+
+/* Estilos para párrafos de video */
+.video p {
+    margin-top: 0.5rem; /* Espacio superior */
+}

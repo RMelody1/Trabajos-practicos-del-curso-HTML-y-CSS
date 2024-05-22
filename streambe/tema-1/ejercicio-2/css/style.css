@@ -1,0 +1,51 @@
+/* Reset de estilos */
+* {
+    margin: 0; /* Quita los márgenes */
+    padding: 0; /* Quita el relleno */
+    box-sizing: border-box; /* Incluye el borde y el relleno en el tamaño total */
+}
+
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif; /* Fuente del cuerpo del documento */
+    line-height: 1.6; /* Espaciado entre líneas */
+    background-color: #f9f9f9; /* Color de fondo */
+    color: #333; /* Color del texto */
+    padding: 20px; /* Espaciado interno del cuerpo */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: rgba(248, 147, 236, 0.496); /* Color de fondo con opacidad */
+    padding: 1em; /* Espaciado interno del encabezado */
+    margin-bottom: 20px; /* Espacio inferior */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilos para títulos */
+h1 {
+    padding-bottom: 1rem; /* Espaciado inferior */
+}
+
+h2 {
+    margin-bottom: 1rem; /* Espacio inferior */
+}
+
+/* Estilos para secciones */
+section {
+    padding: 1rem; /* Espaciado interno */
+    margin-bottom: 20px; /* Espacio inferior */
+    background-color: #fff; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilos para listas desordenadas */
+ul {
+    margin-left: 20px; /* Margen izquierdo */
+    padding-left: 20px; /* Relleno izquierdo */
+}
+
+ul li, ul li {
+    margin-bottom: 0.5rem; /* Espacio inferior entre elementos de la lista */
+}

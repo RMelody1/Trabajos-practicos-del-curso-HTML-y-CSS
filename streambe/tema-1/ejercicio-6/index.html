@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ejercicio 6">
+    <title>Ejercicio 6</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>Ejercicio 6</h1>
+        <p><strong>Hecho por:</strong> Melody Rivero</p>
+    </header>
+    <!-- Contenido principal de la página -->
+    <main>
+        <h2>Registro para Torneo de Fútbol</h2>
+        <!-- Sección del formulario de registro -->
+        <section>
+            <form class="formulario-registro">
+                <!-- Campo para el nombre completo del participante -->
+                <label for="nombre" class="form-label">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" class="form-input" required><br><br>
+                <!-- Campo para la edad del participante -->
+                <label for="edad" class="form-label">Edad:</label>
+                <input type="number" id="edad" name="edad" class="form-input" required><br><br>
+                <!-- Campo para el email del participante -->
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-input" required><br><br>
+                <!-- Selección de la categoría del torneo -->
+                <label for="categoria" class="form-label">Categoría:</label>
+                <select id="categoria" name="categoria" class="form-select">
+                    <option value="Sub-12">Sub-12</option>
+                    <option value="Sub-15">Sub-15</option>
+                    <option value="Sub-18">Sub-18</option>
+                </select><br><br>
+                <!-- Selección de la posición en el campo de juego -->
+                <label class="form-label">Posición en el Campo:</label><br>
+                <input type="radio" id="delantero" name="posicion" value="delantero" class="form-radio">
+                <label for="delantero" class="form-radio-label">Delantero</label><br>
+                <input type="radio" id="mediocampista" name="posicion" value="mediocampista" class="form-radio">
+                <label for="mediocampista" class="form-radio-label">Mediocampista</label><br>
+                <input type="radio" id="defensa" name="posicion" value="defensa" class="form-radio">
+                <label for="defensa" class="form-radio-label">Defensa</label><br>
+                <input type="radio" id="portero" name="posicion" value="portero" class="form-radio">
+                <label for="portero" class="form-radio-label">Portero</label><br><br>
+                <!-- Aceptación de términos y condiciones -->
+                <input type="checkbox" id="terminos" name="terminos" class="form-checkbox" required>
+                <label for="terminos" class="form-checkbox-label">Acepto los términos y condiciones del torneo.</label><br><br>
+                <!-- Botón para enviar el formulario -->
+                <input type="submit" value="Enviar" class="boton-enviar">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
